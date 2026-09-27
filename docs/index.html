@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111313">
+  <meta name="description" content="FoxDyed's Factory Game art archive. Browse concept art, terrain, creatures, buildings, resources and animation studies.">
+  <title>Factory Game Assets — Art galleries</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to galleries</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Factory Game Assets home"><img src="favicon.svg" width="32" height="32" alt=""><span>FACTORY GAME <b>ASSETS</b></span></a>
+    <a class="repo" href="https://github.com/FoxDyed/FactoryGameAssets" target="_blank" rel="noopener">View repository <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="content">
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow" id="eyebrow">FOXDYED / THE ART ARCHIVE</p><h1 id="page-title">Asset & art galleries<span>.</span></h1><p id="description">Concepts, creatures and the worlds they inhabit.</p></div>
+      <p class="archive-count" id="archive-count" aria-live="polite">Loading the archive…</p>
+    </section>
+    <div class="toolbar">
+      <nav id="categories" aria-label="Asset type"></nav>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search galleries" placeholder="Find a gallery…" autocomplete="off"></label>
+    </div>
+    <div class="results-heading"><div><a href="./" id="back" hidden>← All galleries</a><h2 id="results-title">The collections</h2></div><p id="results-count" role="status"></p></div>
+    <div class="grid" id="grid" aria-busy="true"><p class="loading">Opening the art archive…</p></div>
+    <div class="empty" id="empty" hidden><h2>No matches</h2><p>Try another name or choose a different asset type.</p><button id="reset" type="button">Clear search</button></div>
+    <button type="button" id="load-more" class="load-more" hidden>Show more</button>
+    <noscript><p>This gallery uses JavaScript to browse the collection. The <a href="data/catalog.json">complete catalog</a> is also available.</p></noscript>
+  </main>
+  <footer><div class="footer-brand">FACTORY GAME / ART ARCHIVE</div><p>Working art, concepts and studies by FoxDyed.<br>Gallery publication does not change an asset’s review or in-game status.</p><div><a href="data/publication-report.json">Collection coverage</a><p id="updated"></p></div></footer>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-bar"><span id="position"></span><button id="close" type="button" aria-label="Close image viewer">Close <span aria-hidden="true">×</span></button></div>
+    <div class="viewer-stage"><button id="previous" class="step" type="button" aria-label="Previous artwork">←</button><div id="full-media"></div><button id="next" class="step" type="button" aria-label="Next artwork">→</button></div>
+    <div class="viewer-info"><div><h2 id="viewer-title"></h2><p id="dimensions"></p></div><a id="open-media" target="_blank" rel="noopener">Open preview ↗</a></div>
+    <details class="provenance"><summary>Source information</summary><p id="source"></p><p id="source-hash"></p><p>Optimized web preview. Original artwork and editable sources are preserved locally.</p></details>
+  </dialog>
+</body>
+</html>

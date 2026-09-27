@@ -1,0 +1,561 @@
+{
+  "updated": "2026-09-27T04:13:57.949018+00:00",
+  "collections": 101,
+  "uniqueMedia": 2968,
+  "sourceMedia": 4396,
+  "coverage": [
+    {
+      "source": "experiments/hive-2d-finishing-20260916/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase2-001/review/surface-001/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase2-001/review/full-001/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase2-001/review/blockout-002/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase2-001/review/blockout-001/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase2-001/exports/html/S0-Phase-Two-Family-Review.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/art-library/terrain/volcanic/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase1b-001/review/surface-001/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase1b-001/review/full-001/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/art-library/terrain/toxic-jungle/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase1b-001/review/blockout-002/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase1b-001/review/blockout-001/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/art-library/terrain/storm-lands/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/snowy-mountains/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/meadows-waterfront/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase1b-001/exports/html/S0-Phase-1B-Animations.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase1-001/review/comparison-002/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/style-study-s0/out/assets/style-studies/s0/phase1-001/review/comparison-001/index.html",
+      "kind": "html",
+      "outcome": "no surviving local gallery media"
+    },
+    {
+      "source": "experiments/brood-hive-idle/out/assets/jobs/brood-idle-revision-003/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/brood-hive-idle/out/assets/jobs/brood-idle-revision-002/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/unit-animation-completion-20260922/ravager/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/relic-sentinel-20260921/eight-directions-v1/review.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/relic-sentinel-20260921/eight-directions-v1/delivery/Relic Sentinel Eight Directions/review.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/gatekeeper-20260921/production-v1/previews/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/stalk-walk-v1/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/southeast-aseprite-v1/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/revision-02/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/game-walk-v2/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/game-run-v1/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/game-idle-v1/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/game-death-v1/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/game-damage-v1/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/game-attack-v2/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-original-multiview-20260921/game-attack-v1/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-mesh2motion-comparison-20260921/REVIEW_THREE_WAY.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-mesh2motion-comparison-20260921/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-humanoid-20260915/previews/live.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-humanoid-20260915/previews/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-2d-finishing-20260916/REVIEW.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/queen-humanoid-visibility-v2-20260915/previews/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/terrain-pair-v2/review/compare.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/spore-spitter-walk-right-v1/START HERE.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/resource-readability-v2/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/resource-readability-comparison-v1/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/relic-enemies-friendly-ravager-v1/media/START HERE.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/ravager-production-v1/media/START HERE.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/barrens-v2/review/compare.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/meadows-worlds-v2/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/meadows-worlds-v1/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/queen-original-animation-v1/media/QUEEN GAMEPLAY.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/meadows-v1/review/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/factorio-overhaul-demo/playthrough-screenshots-v1/index.html",
+      "kind": "html",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/brood-creep",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/chitin-crust",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/grass",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/meadows-waterfront",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/meadows-wet-dirt",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/mineral-barrens",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/purple-creep",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/snowy-mountains",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/stone",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/storm-lands",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/toxic-jungle",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/terrain/volcanic",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/units/brood-guard",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/units/gatekeeper",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/units/queen",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/units/ravager",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/units/relic-sentinel",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/units/spore-spitter",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/bioelectric-heart",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/brood-chamber",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/brood-hive",
+      "kind": "asset",
+      "outcome": "no surviving public preview"
+    },
+    {
+      "source": "experiments/art-library/buildings/brood-hive-maw",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/brood-hive-spires",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/digestion-chamber",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/feeding-tendril",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/hive-core",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/morphogenesis-chamber",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/nerve-node",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/nutrient-tract",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/root-harvester",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/starting-hub",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/storage-sac",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/buildings/thorn-sentinel",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/adaptive-genome",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/basic-genome",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/brood-cocoon",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/chitin-plate",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/conductive-nerve",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/enzyme-compound",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/fibrous-tissue",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/healing-bolus",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/mineral-nodule",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/nutrient-pellet",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/raw-biomass",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/repair-enzyme",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/resources/thorn-pod",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/chitin-cluster",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/cyst-cluster",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/membrane-fold",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/root-fan",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/savannah-baobab",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/savannah-barrens-scene-20260926",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/savannah-terrain-comparison-20260926",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/savannah-thorn-tree",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/savannah-tree-rotations-45deg",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/savannah-umbrella-acacia",
+      "kind": "asset",
+      "outcome": "included"
+    },
+    {
+      "source": "experiments/art-library/props/spine-caster",
+      "kind": "asset",
+      "outcome": "included"
+    }
+  ],
+  "conversionErrors": [],
+  "scope": "Web viewing copies of current local art assets and surviving study gallery media. Editable originals, acquisition records, vendor packages and private URLs are not published. No new art approval or engine integration.",
+  "limits": "Legacy gallery interfaces are presented as image/video collections. Individual render frames and technical buffers are represented by completed previews and sprite sheets. Deleted historical media cannot be republished."
+}
