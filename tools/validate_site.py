@@ -2,6 +2,8 @@
 import json
 from pathlib import Path
 import re
+from collections import Counter
+from datetime import date
 from PIL import Image
 
 root=Path(__file__).resolve().parents[1]/'docs'
@@ -18,6 +20,11 @@ paths=set()
 for ident,item in catalog['media'].items():
     assert re.fullmatch(r'[0-9a-f]{24}',ident)
     assert re.fullmatch(r'[0-9a-f]{64}',item['sha256'])
+    assert item['demoStatus'] in {'in-demo','not-in-demo','unknown'}
+    assert item['demoEvidence'] and item['createdDateEvidence']
+    assert item['createdDateBasis'] in {'recorded','estimated','unknown'}
+    assert (item['createdDate'] is None) == (item['createdDateBasis']=='unknown')
+    if item['createdDate']: assert date.fromisoformat(item['createdDate']).isoformat()==item['createdDate']
     for key in ['url','thumb']:
         path=(root/item[key]).resolve()
         assert path.is_relative_to(root.resolve()) and path.is_file(),path
@@ -27,6 +34,10 @@ for ident,item in catalog['media'].items():
         if path.suffix=='.webp':
             with Image.open(path) as im: im.verify()
     assert not re.search(r'(^[A-Za-z]:|https?://|token=|signature=)',item['source'])
+for snapshot,key in [('demo','demoStatus'),('creationDates','createdDateBasis')]:
+    actual=Counter(item[key] for item in catalog['media'].values())
+    assert all(actual[status]==amount for status,amount in catalog[snapshot]['counts'].items())
+if catalog['demo']['verification']=='verified': assert re.fullmatch(r'[0-9a-f]{64}',catalog['demo']['packageSha256'])
 for path in root.rglob('*'):
     if path.is_file() and path.suffix in {'.html','.css','.js','.json'}:
         content=path.read_text(encoding='utf-8')

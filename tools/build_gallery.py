@@ -15,6 +15,7 @@ import threading
 from urllib.parse import unquote, urlsplit
 from PIL import Image, ImageOps
 from enrich_catalog import enrich
+from refresh_metadata import refresh
 
 HERE = Path(__file__).resolve().parents[1]
 OUT = HERE / 'docs'
@@ -332,6 +333,7 @@ def main():
     now=datetime.now(timezone.utc).isoformat()
     data={'updated':now, 'categories':CATEGORIES, 'collections':collections,'media':by_id}
     enrich(data,engine,concepts)
+    refresh(data,engine,concepts)
     (OUT/'data/catalog.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     public_coverage = {'updated':now, 'collections':len(collections), 'uniqueMedia':len(by_id),
                 'sourceMedia':len(tasks), 'coverage':coverage,'conversionErrors':issues,

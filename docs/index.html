@@ -8,6 +8,7 @@
   <title>Factory Game Assets — Art galleries</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="style.css">
+  <script src="filtering.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -25,9 +26,19 @@
       <nav id="categories" aria-label="Asset type"></nav>
       <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search galleries" placeholder="Find a gallery…" autocomplete="off"></label>
     </div>
+    <div class="filters" aria-label="Artwork filters">
+      <label>Created from<input id="date-from" type="date" aria-describedby="filter-note filter-error"></label>
+      <label>Created through<input id="date-to" type="date" aria-describedby="filter-note filter-error"></label>
+      <label>Demo status<select id="demo-status"><option value="">All artwork</option><option value="in-demo">In current demo</option><option value="not-in-demo">Not in current demo</option><option value="unknown">Unverified</option></select></label>
+      <label>Sort by<select id="sort"><option value="default">Collection order</option><option value="newest">Newest first</option><option value="oldest">Oldest first</option></select></label>
+      <button id="clear-filters" type="button">Reset filters</button>
+    </div>
+    <p class="filter-note" id="filter-note">Dates marked “est.” are estimates. Undated artwork is included unless a date range is selected.</p>
+    <p class="filter-note" id="demo-note"></p>
+    <p class="filter-error" id="filter-error" role="alert" hidden></p>
     <div class="results-heading"><div><a href="./" id="back" hidden>← All galleries</a><h2 id="results-title">The collections</h2></div><p id="results-count" role="status"></p></div>
     <div class="grid" id="grid" aria-busy="true"><p class="loading">Opening the art archive…</p></div>
-    <div class="empty" id="empty" hidden><h2>No matches</h2><p>Try another name or choose a different asset type.</p><button id="reset" type="button">Clear search</button></div>
+    <div class="empty" id="empty" hidden><h2>No matches</h2><p>Try a wider date range, another demo status or a different search.</p><button id="reset" type="button">Reset filters</button></div>
     <button type="button" id="load-more" class="load-more" hidden>Show more</button>
     <noscript><p>This gallery uses JavaScript to browse the collection. The <a href="data/catalog.json">complete catalog</a> is also available.</p></noscript>
   </main>
@@ -36,7 +47,8 @@
     <div class="viewer-bar"><span id="position"></span><button id="close" type="button" aria-label="Close image viewer">Close <span aria-hidden="true">×</span></button></div>
     <div class="viewer-stage"><button id="previous" class="step" type="button" aria-label="Previous artwork">←</button><div id="full-media"></div><button id="next" class="step" type="button" aria-label="Next artwork">→</button></div>
     <div class="viewer-info"><div><h2 id="viewer-title"></h2><p id="dimensions"></p></div><a id="open-media" target="_blank" rel="noopener">Open preview ↗</a></div>
-    <details class="provenance"><summary>Source information</summary><p id="source"></p><p id="source-hash"></p><p>Optimized web preview. Original artwork and editable sources are preserved locally.</p></details>
+    <p class="viewer-metadata" id="viewer-metadata"></p>
+    <details class="provenance"><summary>Source information</summary><p id="source"></p><p id="source-hash"></p><p id="date-evidence"></p><p id="demo-evidence"></p><p>Optimized web preview. Original artwork and editable sources are preserved locally.</p></details>
   </dialog>
 </body>
 </html>
